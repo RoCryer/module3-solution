@@ -1,22 +1,15 @@
 body {
   font-size: 16px;
   color:#121211;
-  background-color: #a1daf7;
+  background-color: #E0FFFF;
   font-family: 'Alegreya Sans', sans-serif;
 }
 
 /** HEADER **/
 #header-nav {
-  background-color: #0a9ac2;
+  background-color: #6495ED;
   border-radius: 0;
   border: 0;
-}
-
-#logo-img {
-  background: url('../images/restaurant-logo_large.png') no-repeat;
-  width: 150px;
-  height: 150px;
-  margin: 10px 15px 10px 0;
 }
 
 .navbar-brand {
@@ -25,7 +18,7 @@ body {
 
 .navbar-brand h1 { /* Restaurant name */
   font-family: 'Roboto', sans-serif;
-  color: #f2f2f0;
+  color: #FFFAF0;
   font-size: 1.5em;
   text-transform: uppercase;
   font-weight: bold;
@@ -41,18 +34,18 @@ body {
   margin-top: 10px;
 }
 #nav-list a {
-  color: #951C49;
+  color: #FFFAF0;
   text-align: center;
 }
 #nav-list a:hover {
-  background: #E7E7E7;
+  background: #696969;
 }
 #nav-list a span {
   font-size: 1.8em;
 }
 
 .navbar-header button.navbar-toggle, .navbar-header .icon-bar {
-  border: 1px solid #61122f;
+  border: 1px solid #696969;
 }
 .navbar-header button.navbar-toggle {
   clear: both;
@@ -62,23 +55,24 @@ body {
 .page-heading{
   text-align: center;
 }
-#Chicken, #Beef, #Sushi {
-  height: 200px;
+#chicken-tile, #beef-tile, #sushi-tile{
+  height: 250px;
   width: 100%;
+  position: relative;
   margin-bottom: 15px;
-  position: relative;
-  border: 2px solid #3F0C1F;
+  background-color: #FFFFE0;
   overflow: auto;
-  background-color: #d0edf7;
+  border: 5px solid #696969;
 }
-.menu-tiles { 
-  position: relative;
-  border: 2px solid #3F0C1F;
-  overflow: auto;
-  width: 700px;
-  margin: 0 auto 15px;
+h3{
+  text-align: center;
 }
-#Chicken:hover, #Beef:hover, #Sushi:hover {
+p {
+  margin-right: auto;
+  margin-left: auto;
+  padding: 10px;
+}
+#chicken-tile:hover, #beef-tile:hover, #sushi-tile:hover {
   box-shadow: 0 1px 5px 1px #cccccc;
 }
 
